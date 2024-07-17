@@ -1,0 +1,11 @@
+.custom-scrollbar {
+    overflow-x: scroll;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 0; /* This will hide the scrollbar in Chrome, Safari, and Opera */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    display: none; /* This will hide the scrollbar track */
+  }
